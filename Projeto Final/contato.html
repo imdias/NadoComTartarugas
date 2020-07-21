@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<title>Nado com Tartarugas</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="tartaruga.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<header class="cabecalhoPrincipal">
+		<div class="container">
+			<img class="logo" src="logo.png">
+
+			<nav class="cabecalhoPrincipal-nav">
+				<a class="cabecalhoPrincipal-nav-link" href="index.html">Home</a>
+				<a class="cabecalhoPrincipal-nav-link" href="sobre.html">Sobre</a>
+				<a class="cabecalhoPrincipal-nav-link" href="beneficios.html">Benefícios</a>
+				<a class="cabecalhoPrincipal-nav-link" href="contato.html">Fale Conosco</a>
+			</nav>
+		</div>
+
+	</header>
+
+	<main class="conteudoPrincipal">
+		<section class="conteudo-formulario">
+			<div class="container">
+
+				<form>
+					<label for="nomesobrenome">Nome e sobrenome</label>
+					<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+					<label for="email">Email</label>
+					<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+					<label for="telefone">Telefone Celular</label>
+					<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+					<label for="telefone">Telefone Residencial</label>
+					<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+
+					<fieldset>
+						<legend>Como prefere o nosso contato?</legend>
+
+						<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+							Email</label>
+
+						<label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+								id="radio-telefone"> Telefone</label>
+
+						<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp"
+								id="radio-whatsapp" checked> WhatsApp</label>
+					</fieldset>
+
+					<fieldset>
+						<legend>Qual horário prefere ser atendido?</legend>
+						<select>
+							<option>Manhã</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
+					</fieldset>
+
+					<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
+						email?</label>
+
+					<input type="submit" value="Enviar formulário" class="enviar">
+				</form>
+
+				<table>
+					<tr>
+						<td>Dia</td>
+						<td>Horário</td>
+					</tr>
+					<tr>
+						<td>Segunda</td>
+						<td>6h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Terça</td>
+						<td>6h ~ 22h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>6h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Quinta</td>
+						<td>6h ~ 22h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8h ~ 17h</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p class="copyright">&copy; Copyright Nado com Tartarugas - 2020</p>
+		<p class="name">Produzido por: </p>
+	</footer>
+
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="principal.js"></script>
+</body>
+
+</html>

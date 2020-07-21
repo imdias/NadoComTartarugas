@@ -1,0 +1,459 @@
+
+.carousel {
+	margin: 0 auto;
+	width: 85%;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	counter-increment: gallery-cell;
+	position: relative;
+  	filter: drop-shadow(0 0 10px #0003);
+  	perspective: 100px;
+}
+
+body {
+	background-color: #F2F5F7;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.cabecalhoPrincipal {
+	background-color: #FFF;
+	padding: 20px 0;
+}
+
+.cabecalhoPrincipal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.cabecalhoPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.cabecalhoPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #9799A6;
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+
+	border-bottom: 1px solid #9799A6;
+}
+
+.conteudoPrincipal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.subtitulo {
+	font-weight: bold;
+	font-size: 32px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.bloco1 {
+	padding: 25px 0;
+}
+
+.bloco2 {
+	background-color: #5E9EDC;
+	padding: 25px 0;
+}
+
+.bloco3 {
+	background-color: #324C64;
+	padding: 25px 0;
+}
+
+.texto {
+	padding: 30px;
+	margin: 10px 0;
+	line-height: 2.5;
+	text-align: justify;
+	width: 80%;
+	flex-grow: 1;
+}
+
+.bloco3 .container {
+	color: #FFFFFF;
+}
+
+.lista-aulas {
+	line-height: 3;
+}
+
+@media(min-width: 768px) {
+
+	.container {
+		width: 85%;	
+	}
+
+	.subtitulo {
+		text-align: left;
+	}
+
+	.cabecalhoPrincipal-nav-link {
+		border-radius: 5px;
+		border: 1px solid #9799A6;
+	}
+
+	.cabecalhoPrincipal-nav-link:hover {
+		color: #FFF;
+		background-color: #9799A6;
+	}
+
+	.cabecalhoPrincipal-titulo {
+		margin: 0;
+	}
+
+	.cabecalhoPrincipal-nav {
+		width: auto;
+	}
+
+	.cabecalhoPrincipal-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+
+	.rodapePrincipal-contatoForm {
+		margin-top: 0;
+		text-align: left;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
+		margin-left: 0;
+	}
+}
+
+.logo {
+	width: 20%;
+}
+
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+
+}
+
+.bloco-nav-conteudo {
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	width: 45%;
+
+}
+
+.bloco3-nav-conteudo {
+	display: flex;
+	height: 400px;
+	width: 45%;
+	justify-content: space-between;
+}
+
+.bloco1 .container {
+	display: flex;
+	justify-content: space-between;
+} 
+
+
+.bloco2 .container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.bloco3 .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding:40px 0;
+}
+
+.copyright, .name {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+}
+
+.saibaMais {
+	border-radius: 8px;
+	background-color: #FA7C92;
+	color: #FFF;
+	border: none;
+	cursor: pointer;
+	display: block;
+	height: 50px;
+	font-size: 20px;
+	margin: 15px 0;
+	width: 30%;
+
+}
+
+.saibaMais:hover {
+	background: #E24E42;
+}
+
+
+/* CSS da página Contato */
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;						
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+
+/*CSS mobile*/
+@media (min-width: 100px) and (max-width: 767px) {
+	.cabecalhoPrincipal-nav {
+	flex-direction: column;
+	}
+
+	.cabecalhoPrincipal .container {
+		flex-direction: column;
+		align-items: initial;
+		text-align: center;
+	}
+
+	.logo {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.bloco1 .container {
+		flex-direction: column;
+		align-items: initial;
+		width: 100%;
+	}
+
+	.bloco2 .container {
+		flex-direction: column;
+		align-items: initial;
+		width: 100%;
+	}
+
+	.bloco3 .container {
+		flex-direction: column;
+		align-items: initial;
+		width: 100%;
+	}
+
+	.bloco3-nav-conteudo {
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+	}
+
+	.bloco-nav-conteudo {
+		width: 100%;
+		height: auto;
+		justify-content: flex-start;
+	}
+
+	.saibaMais {
+		width: 100%;
+	}
+
+	.imagem-mobile {
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+
+	.conteudo-formulario .container {
+		width: 100%;
+		height: auto;
+	}
+
+	form {
+		padding: 0 20px 0 20px;
+	}
+
+	table {
+		width: 100%;
+		text-align: center;
+
+	}
+
+
+	.enviar {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	footer {
+		width: 100%;
+		text-align: center;
+	}
+	
+}
+
+/*CSS mobile Tablete*/
+@media (min-width: 768px) and (max-width: 1110px) {
+
+/*	.cabecalhoPrincipal-nav {
+		width: 100%;
+		justify-content: space-around;
+	}
+*/
+	.cabecalhoPrincipal .container {
+		flex-direction: column;
+	}
+
+	.logo {
+		width: 40%;
+	}
+
+	.conteudoPrincipal {
+		width: 100%;
+	}
+
+	.bloco1 .container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+	}
+
+	.bloco2 .container {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.bloco3 .container {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.subtitulo {
+		text-align: center;
+		width: 100%;
+		padding-top: 10px;
+	}
+
+	.bloco-nav-conteudo {
+		width: 90%;
+		align-items: center;
+	}
+
+	.texto {
+		width: 90%;
+		text-align: center;
+	}
+
+	.saibaMais {
+		width: 100%;
+
+	}
+
+	.imagem-mobile {
+		margin: 0 auto;
+		width: 70%;
+		height: auto;
+		grid-row: 2;
+	}
+
+	.bloco3-nav-conteudo {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer {
+		width: 100%;
+		text-align: center;
+	}
+	
+}
